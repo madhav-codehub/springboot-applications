@@ -1,11 +1,7 @@
-app:
-  name: MySpringApp
-  version: 1
-  enabled: true
-  features:
-    - feature1
-    - feature2
-    - feature3
-  settings:
-    mode: production
-    region: us-east
+spring:
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 10MB
+file:
+  upload-dir: ./uploads
