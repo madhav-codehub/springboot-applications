@@ -1,0 +1,11 @@
+app:
+  name: MySpringApp
+  version: 1
+  enabled: true
+  features:
+    - feature1
+    - feature2
+    - feature3
+  settings:
+    mode: production
+    region: us-east
